@@ -137,6 +137,10 @@ main{
         input{
             display: none;
         }
+         
+      label {
+        cursor: pointer;
+      }
 
         div:has(input:checked){
             .custom-checkbox{
